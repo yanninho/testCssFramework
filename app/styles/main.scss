@@ -1,0 +1,396 @@
+//$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "Materialize/sass/materialize.scss";
+// endbower
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: yellow;  
+}
+
+footer {
+  width: 100%;
+  background-color: blue;
+  height: 150px;
+  line-height: 75px;
+}
+
+// == DEBUT CONCISE
+// @import "concise/src/concise.scss";
+   // @import "concise/src/core/globals/_globals";
+   // @import "concise/src/core/utils/_atgrid";
+   //  body {
+   //    @include container();
+      
+   //    header {
+
+   //      nav {
+   //        position: absolute;
+   //        top: 0;
+   //        left: 0;
+   //      }
+
+   //    }
+
+   //    section:first-of-type {
+   //      @include row();
+   //      article {  
+   //        @include row();
+   //        p {
+   //          @include column(3/12);
+   //        }
+   //      }
+   //      aside {
+   //        @include column(12/12);
+   //      }   
+   //    }
+
+   //    .pleinDeLiens {
+   //      @include row();
+   //      div {
+   //        @include column(6/12);
+   //      }
+   //    }
+   //  }
+// == FIN CONCISE
+
+// == DEBUT FOUNDATION
+// @import "foundation/scss/foundation.scss";
+//    @import "foundation/scss/foundation/components/_grid";
+// header {
+//   @extend .row;
+
+//   h1 {
+//     @extend .column;
+//     @extend .large-3;
+//   }  
+//   nav {
+//     @extend .column;
+//     @extend .large-9;
+//   }
+// }
+
+//   section:first-of-type {
+//    @extend .row;  
+//    article {
+//      @extend .row;      
+//       p {
+//         @extend .column;
+//         @extend .large-3;
+//         @extend .medium-6;
+//         @extend .small-12;  
+//       }     
+//     }
+//     aside {
+//       @extend .column;
+//       @extend .large-12;
+//     } 
+//   }
+
+//   .pleinDeLiens {
+//     @extend .row;
+//     div {
+//       @extend .column;
+//       @extend .large-6;
+//       @extend .small-12;  
+//     }
+//   }
+// == FIN FOUNDATION
+
+// == DEBUT BOOTSTRAP-SASS
+  // @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";  
+
+  // @import "bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix";
+  // @import "bootstrap-sass-official/assets/stylesheets/bootstrap/_variables";
+  // @import "bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework";
+  // @import "bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid";  
+  // @import "bootstrap-sass-official/assets/stylesheets/bootstrap/_grid";  
+  // header {
+  //   @extend .row;
+
+  //   h1 {
+  //     @extend .col-lg-3;
+  //   }  
+  //   nav {
+  //     @extend .col-lg-9;
+  //   }
+  // }
+
+  //   section:first-of-type {
+  //     @extend .row;  
+  //     article {
+  //       @extend .row;  
+  //       p {
+  //         @extend .col-lg-3;
+  //         @extend .col-md-6;
+  //         @extend .col-xs-12; 
+  //       }
+  //     }
+  //     aside {
+  //       @extend .col-lg-12;
+  //       @extend .col-md-12;
+  //       @extend .col-xs-12;        
+    //   }
+  //   }
+
+  //   .pleinDeLiens {
+  //     @extend .row;  
+  //     div {
+  //       @extend .col-lg-6;
+  //       @extend .col-md-6;
+  //       @extend .col-xs-12; 
+  //     }
+  //   }
+// == FIN BOOTSTRAP-SASS
+
+// == DEBUT material-design-lite
+// @import "material-design-lite/src/material-design-lite-grid.scss";
+//   header {
+//     @extend .mdl-grid;
+
+//     h1 {
+//       @extend .mdl-cell; 
+//       @extend .mdl-cell--3-col;
+//     }  
+//     nav {
+//       @extend .mdl-cell;
+//       @extend .mdl-cell--9-col;
+//     }
+//   }
+
+//     section:first-of-type {
+//       @extend .mdl-grid;
+//       article {
+//         @extend .mdl-grid;  
+//         p {
+//           @extend .mdl-cell; 
+//           @extend .mdl-cell--3-col;
+//           @extend .mdl-cell--6-col-tablet;
+//           @extend .mdl-cell--12-col-phone; 
+//         }
+//       }
+//       aside {
+//           @extend .mdl-cell; 
+//           @extend .mdl-cell--12-col;
+//           @extend .mdl-cell--12-col-tablet;
+//           @extend .mdl-cell--12-col-phone;         
+//       }
+//     }
+
+//     .pleinDeLiens {
+//       @extend .mdl-grid;
+//       div {
+//         @extend .mdl-cell; 
+//         @extend .mdl-cell--6-col;
+//         @extend .mdl-cell--6-col-tablet;
+//         @extend .mdl-cell--12-col-phone; 
+//       }
+//     }
+// == FIN material-design-lite
+
+// == DEBUT materialize
+ // @import "Materialize/sass/components/_prefixer";
+ // @import "Materialize/sass/components/_color";
+ // @import "Materialize/sass/components/_variables";
+ // @import "Materialize/sass/components/_grid";
+ //  header {
+ //    @extend .mdl-grid;
+
+ //    h1 {
+ //      @extend .mdl-cell; 
+ //      @extend .mdl-cell--3-col;
+ //    }  
+ //    nav {
+ //      @extend .mdl-cell;
+ //      @extend .mdl-cell--9-col;
+ //    }
+ //  }
+
+ //    section:first-of-type {
+ //      @extend .mdl-grid;
+ //      article {
+ //        @extend .mdl-grid;  
+ //        p {
+ //          @extend .mdl-cell; 
+ //          @extend .mdl-cell--3-col;
+ //          @extend .mdl-cell--6-col-tablet;
+ //          @extend .mdl-cell--12-col-phone; 
+ //        }
+ //      }
+ //      aside {
+ //          @extend .mdl-cell; 
+ //          @extend .mdl-cell--12-col;
+ //          @extend .mdl-cell--12-col-tablet;
+ //          @extend .mdl-cell--12-col-phone;         
+ //      }
+ //    }
+
+ //    .pleinDeLiens {
+ //      @extend .mdl-grid;
+ //      div {
+ //        @extend .mdl-cell; 
+ //        @extend .mdl-cell--6-col;
+ //        @extend .mdl-cell--6-col-tablet;
+ //        @extend .mdl-cell--12-col-phone; 
+ //      }
+ //    }
+// == FIN materialize
+
+// == DEBUT susy
+// @import "susy/sass/_susy.scss";
+// @import "compass/utilities/general/clearfix";
+
+// $susy: (
+//   columns: 12,   // On indique à Susy dutiliser 12 colonnes
+//   global-box-sizing: border-box   // Utiliser border-box
+// );
+
+// @include border-box-sizing;
+
+// body {
+//   @include container (100%);
+// }
+
+//  header {
+//     @include container (100%);
+//     h1 {
+//       @include span(3);
+//     }  
+//     nav {
+//       @include span(9 last);
+//     }
+//   }
+
+//     section:first-of-type {
+//       // @extend .mdl-grid;
+//       @include container (100%);
+//       article {
+//         // @extend .mdl-grid; 
+//         //@include container (100%); 
+//         p {
+//           // @extend .mdl-cell; 
+//           // @extend .mdl-cell--3-col;
+//           // @extend .mdl-cell--6-col-tablet;
+//           // @extend .mdl-cell--12-col-phone; 
+//           @include span(3 of 12);
+//           margin: 0;
+//         }
+
+//       }
+//       aside {
+//           // @extend .mdl-cell; 
+//           // @extend .mdl-cell--12-col;
+//           // @extend .mdl-cell--12-col-tablet;
+//           // @extend .mdl-cell--12-col-phone;         
+//           @include span(12);
+//       }
+//     }
+
+//     .pleinDeLiens {
+//       // @extend .mdl-grid;
+//       @include container (100%);
+//       div {
+//         // @extend .mdl-cell; 
+//         // @extend .mdl-cell--6-col;
+//         // @extend .mdl-cell--6-col-tablet;
+//         // @extend .mdl-cell--12-col-phone;
+//         @include span(6); 
+//       }
+//     }
+
+//     footer {
+//       @include span(12);
+//     }
+
+// == FIN susy
+
+// == DEBUT zen-grids
+// @import "zen-grids/sass/_zen-grids";
+// $zen-column-count: 12;
+
+//   header {
+//     @include zen-grid-container;
+
+//     h1 {
+//       @include zen-grid-item(3, 1);
+//     }  
+//     nav {
+//       @include zen-grid-item(9, 2);
+//     }
+//   }
+
+//     section:first-of-type {
+//       @include zen-grid-container;
+//       article {
+//         @include zen-grid-container;  
+//         p {
+//           @include zen-grid-item(3, 1); 
+//         }
+//       }
+//       aside {
+//           @include zen-grid-item(12, 1);         
+//       }
+//     }
+
+//     .pleinDeLiens {
+//       @include zen-grid-container;
+//       div {
+//         @include zen-grid-item(6, 1); 
+//       }
+//     }
+// == FIN zen-grids
+
+@import "gridle/sass/_grid-settings-flex";
+
+@include gridle_register_default_states();
+@include gridle_register_default_mobile_first_states();
+  
+  body {
+    @include gridle_container();
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;    
+  }
+
+  header {
+    @include gridle_row();
+
+    h1 {
+      @include gridle_grid ( 3 ); 
+    }  
+    nav {
+      @include gridle_grid ( 9 ); 
+    }
+  }
+
+    section:first-of-type {
+      @include gridle_row();
+      article {
+        @include gridle_row();
+        p {
+          @include gridle_grid ( 3 ); 
+          @include gridle_state ( mobile ) {
+              @include gridle_grid ( 12 ); 
+          }          
+          @include gridle_state ( tablet ) {
+              @include gridle_grid ( 6 ); 
+          }          
+        }
+      }
+      aside {
+          @include gridle_grid ( 12 );         
+      }
+    }
+
+    .pleinDeLiens {
+      @include gridle_row();
+      div {
+        @include gridle_grid ( 6 ); 
+          @include gridle_state ( mobile ) {
+              @include gridle_grid ( 12 ); 
+          }                   
+      }
+    }
+

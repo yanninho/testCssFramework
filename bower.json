@@ -1,0 +1,38 @@
+{
+  "name": "appdefault",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "^1.3.0",
+    "bootstrap-sass-official": "^3.2.0",
+    "angular-animate": "^1.3.0",
+    "angular-aria": "^1.3.0",
+    "angular-cookies": "^1.3.0",
+    "angular-messages": "^1.3.0",
+    "angular-resource": "^1.3.0",
+    "angular-route": "^1.3.0",
+    "angular-sanitize": "^1.3.0",
+    "angular-touch": "^1.3.0",
+    "foundation": "~5.5.3",
+    "Materialize": "materialize#~0.97.2",
+    "concise": "~3.1.1",
+    "angular-material": "~0.11.4",
+    "material-design-lite": "~1.0.6",
+    "KNACSS": "knacss#~4.3.6",
+    "susy": "~2.2.6"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.0",
+    "gridle": "~2.0.43"
+  },
+  "appPath": "app",
+  "moduleName": "appdefaultApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
